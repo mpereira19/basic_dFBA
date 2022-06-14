@@ -45,7 +45,7 @@ def bound_types(model, typ, reaction_id, line, val=None):
 		model.reactions.get_by_id(reaction_id).lower_bound = value
 
 
-excel = openpyxl.load_workbook(filename="pfba.xlsx")
+excel = openpyxl.load_workbook(filename="dfba.xlsx")
 configuration = excel['configuration']
 states = excel['states']
 dynamic_constraints = excel['dynamic_constraints']
