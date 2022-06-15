@@ -103,7 +103,7 @@ def xdot(t, x, cobra_model):
 	return np.array(lst)
 
 
-t_span = (0, 100)
+t_span = (plot['B4'].value, plot['B5'].value)
 t_eval = np.linspace(t_span[0], t_span[1], 1000)
 y0 = []
 for valu in range(2, len(states['B']) + 1):
