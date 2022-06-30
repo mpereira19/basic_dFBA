@@ -32,8 +32,7 @@ Open dfba.xlsx to see all the reaction flow changes in the fluxes tab.
 
   - Please do not use symbols or numbers in your variable names (state and dynamic_constraints tab)
   - Before running script *bounds_redefin_&_dfba.py* do not modify fluxes tab
-  - Done not delete any excel cell, line or collumn
-
+  - Do not modify or delete any excel cell, line, collumn or tab with text
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
