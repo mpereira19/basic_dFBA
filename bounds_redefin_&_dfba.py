@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from cobra.flux_analysis import pfba
 from openpyxl.utils import get_column_letter
 import glob
+from math import *
 sym.init_printing()
 
 
